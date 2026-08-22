@@ -1,6 +1,15 @@
 ### Niiblr
 
-Personal projects, mostly things I wanted to exist.
+Local-first AI tools — mostly things I wanted to exist.
 
-- **conclave**: extends Karpathy's llm-council into a 4-phase debate format. Mixes Ollama (local), OpenRouter, Gemini, and OpenAI in the same council.
-- **pdf-personal-info-redactor**: redacts PII from PDFs entirely on your machine. Local LLM via Ollama plus exact string matching. Nothing leaves the device.
+- **[conclave](https://github.com/Niiblr/conclave)** — multi-LLM debate engine:
+  council, adversarial debate, and voting-round consensus between free models.
+  Mix Ollama, Gemini, OpenAI, and OpenRouter. Based on
+  [karpathy/llm-council](https://github.com/karpathy/llm-council).
+- **[pdf-personal-info-redactor](https://github.com/Niiblr/pdf-personal-info-redactor)** —
+  redacts PII from PDFs entirely on your machine: real redactions (not black boxes),
+  OCR for scans, metadata scrubbing, verified output.
+
+*Contact:* open an issue on either project.
+
+*Niiblr is a personal handle. Unlikely affiliation with the Futurama character.*
